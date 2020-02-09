@@ -1,3 +1,9 @@
-# FirstGame
-dont know what to do
-try git first
+# FirstGame  
+
+## PLan  
++ Html+JavaScript  
++ Touhou Project  
++ TowerDefense  
++ # 仿东方梦符祭  
+
+### ......
