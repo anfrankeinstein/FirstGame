@@ -1,0 +1,31 @@
+{
+  "name": "firstgame",
+  "version": "1.0.0",
+  "description": "这是一个基于 TypeScript 开发的塔防游戏项目，灵感来源于东方 Project 的《东方梦符祭》（Touhou Dream Symbolism）和《绿色循环圈》（Green Circular Loop）。游戏结合了弹幕射击游戏的华丽视觉效果与塔防游戏的策略深度。",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode=production",
+    "dev": "webpack serve --mode=development",
+    "start": "webpack serve --mode=development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anfrankeinstein/FirstGame.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anfrankeinstein/FirstGame/issues"
+  },
+  "homepage": "https://github.com/anfrankeinstein/FirstGame#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.6.6",
+    "ts-loader": "^9.5.4",
+    "typescript": "^5.9.3",
+    "webpack": "^5.105.2",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.3"
+  }
+}

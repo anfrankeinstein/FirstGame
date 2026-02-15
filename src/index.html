@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FirstGame - 东方梦符祭风格塔防游戏</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: #000;
+            color: #fff;
+            font-family: 'Microsoft YaHei', sans-serif;
+            overflow: hidden;
+        }
+        #gameCanvas {
+            display: block;
+            margin: 0 auto;
+            border: 2px solid #fff;
+            background: #001122;
+        }
+        #ui {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background: rgba(0, 0, 0, 0.8);
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div id="ui">
+        <h2>东方梦符祭风格塔防游戏</h2>
+        <p>灵力: <span id="spiritPower">100</span></p>
+        <p>生命: <span id="lives">20</span></p>
+        <p>波数: <span id="wave">1</span></p>
+    </div>
+    <canvas id="gameCanvas" width="800" height="600"></canvas>
+</body>
+</html>
